@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![QR code component screenshot](../../screenshot.png)
+![QR code component screenshot](./screenshot.png)
 
 This is a simple QR code component layout where users can scan a QR code to visit Frontend Mentor. The page is responsive, with a desktop-first design.
 
