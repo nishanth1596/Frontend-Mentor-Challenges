@@ -25,8 +25,8 @@ This is a simple QR code component layout where users can scan a QR code to visi
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View the code on GitHub](https://github.com/nishanth1596/frontend-webdev)
+- Live Site URL: [Visit the live site](https://nishanth1596.github.io/frontend-webdev/)
 
 ## My process
 
@@ -59,10 +59,13 @@ I would like to continue practicing more complex layout techniques, especially w
 
 MDN Web Docs - Flexbox - This documentation helped me understand Flexbox better.
 Google Fonts - I used the Outfit font from Google Fonts to style the text.
-Author
-Website - Your Website URL
-Frontend Mentor - @nishanth1596
-Twitter - @nishanth1596
+
+### Author
+
+- Name: Nishanth  
+- Website - [My GitHub Profile](https://github.com/nishanth1596)  
+- Frontend Mentor - [@nishanth1596](https://www.frontendmentor.io/profile/nishanth1596)  
+- Twitter - [@nishanth1596](https://x.com/nishanth1596)
 
 ### Acknowledgments
 
