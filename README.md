@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Here’s a screenshot of the Blog Preview Card:](/screenshot.jpg)
-![Also, here’s a screenshot showing the card in a hover state for the **HTML & CSS foundations** article:](/screenshot-hover.jpg)
+![Here’s a screenshot of the Blog Preview Card:](/Screenshot.jpg)
+![Also, here’s a screenshot showing the card in a hover state for the **HTML & CSS foundations** article:](/Screenshot-hover.jpg)
 
 ### Links
 
