@@ -27,12 +27,12 @@ Users should be able to:
 ### Screenshot
 
 ![Here’s a screenshot of the Blog Preview Card:](./screenshot.jpg)
-![Also, here’s a screenshot showing the card in a hover state for the **HTML & CSS foundations** article:](./screenshot.jpg)
+![Also, here’s a screenshot showing the card in a hover state for the **HTML & CSS foundations** article:](./screenshot-hover.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nishanth1596/Frontend-Mentor-Challenges/tree/Preview-card)
-- Live Site URL: [Add live site URL here](https://6751ab3b19a0303712286607--frontendpreview-card.netlify.app/)
+- Solution URL: [View the code on GitHub](https://github.com/nishanth1596/Frontend-Mentor-Challenges/tree/Preview-card)
+- Live Site URL: [Visit the live site](https://6751ab3b19a0303712286607--frontendpreview-card.netlify.app/)
 
 ## My process
 
