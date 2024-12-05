@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/nishanth1596/Frontend-Mentor-Challenges/tree/Preview-card)
+- Live Site URL: [Add live site URL here](https://6751ab3b19a0303712286607--frontendpreview-card.netlify.app/)
 
 ## My process
 
