@@ -25,8 +25,8 @@ This is a simple QR code component layout where users can scan a QR code to visi
 
 ### Links
 
-- Solution URL: [View the code on GitHub](https://github.com/nishanth1596/frontend-webdev)
-- Live Site URL: [Visit the live site](https://nishanth1596.github.io/frontend-webdev/)
+- Solution URL: [View the code on GitHub](https://github.com/nishanth1596/Frontend-Mentor-Challenges/tree/Desktop-First-QR-Code-Component-Using-HTML%2C-CSS%2C-and-Flexbox)
+- Live Site URL: [Visit the live site](https://nishanth1596.github.io/Frontend-Mentor-Challenges/)
 
 ## My process
 
