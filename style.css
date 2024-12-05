@@ -1,0 +1,179 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!-- <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> --> */
+
+/* Always bottom margin is present */
+/* Font famile needs to be taken care */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  height: 522px;
+  width: 384px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
+}
+
+.main-image {
+  height: 200px;
+  margin: 24px 24px 0px 24px;
+}
+
+.img-main {
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.text-box {
+  margin: 24px 24px 0px 24px;
+}
+
+.learning {
+  width: 82px;
+  height: 29px;
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  border: 0px;
+  border-radius: 4px;
+  color: #111111;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  /* come again later here */
+}
+
+/* 
+Text Preset 3 (Bold)
+Figtree Extra Bold
+14px
+150% Line Height
+0px Letter Spacing
+
+*/
+
+.para {
+  margin-top: 12px;
+}
+
+h1 {
+  margin-top: 12px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-size: 24px;
+  font: weight 800;
+}
+
+h1:hover,
+h1:active,
+h1:focus,
+h1.error {
+  cursor: pointer;
+  color: #f4d04e;
+}
+
+.content-para {
+  margin-top: 12px;
+  color: #6b6b6b;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.avatar {
+  margin: 24px 231px 24px 24px;
+  display: flex;
+  height: 32px;
+  width: 139px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 32px;
+}
+
+.avatar p {
+  color: #111111;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* Typography
+Text Preset 3 (Bold)
+Figtree Extra Bold
+14px
+150% Line Height
+0px Letter Spacing
+
+/* 
+colors
+
+yellow - #F4D04E
+gray-950 - #111111
+gray-500 - #6B6B6B
+white - #fff
+
+
+Typography
+
+Text Preset 1
+Figtree Extra Bold
+24px
+150% Line Height
+0px Letter Spacing
+
+
+Text Preset 2
+Figtree Medium
+16px
+150% Line Height
+0px Letter Spacing
+
+Text Preset 3
+Figtree Medium
+14px
+150% Line Height
+0px Letter Spacing
+
+
+Text Preset 3 (Bold)
+Figtree Extra Bold
+14px
+150% Line Height
+0px Letter Spacing
+
+
+
+Spacing
+
+300 -24px
+150 - 12px
+100 - 8px
+50  - 4px
+*/
