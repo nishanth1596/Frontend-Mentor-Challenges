@@ -21,25 +21,21 @@ body {
 }
 
 .outerbox {
-  height: 611px;
-  width: 384px;
+  max-width: 345px;
+  width: 100%;
+  padding: 1.5rem;
   background-color: #1f1f1f;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 img {
   width: 88px;
-  margin: 40px 148px 0 148px;
   border-radius: 100%;
   object-fit: contain;
-}
-
-.text-primary-box {
-  padding: 24px 40px 0 40px;
-  text-align: center;
 }
 
 h1 {
@@ -56,29 +52,24 @@ h1 {
 
 .text-secondary-box {
   font-weight: 400;
-  text-align: center;
   font-size: 14px;
 }
 
 .btn {
   display: flex;
   flex-direction: column;
-
-  margin: 24px 40px 40px 40px;
-  margin-top: 0px;
   background-color: #1f1f1f;
-  height: 304px;
-  width: 289px;
   gap: 16px;
+  align-self: stretch;
 }
 
 .btn-main {
-  height: 45px;
-  width: 304px;
+  padding-block: 1rem;
   background-color: #333333;
   color: white;
   font-size: 14px;
   border-radius: 8px;
+  border: none;
 }
 
 .btn-main:last-child {
