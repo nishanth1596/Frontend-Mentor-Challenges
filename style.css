@@ -66,6 +66,7 @@ h1 {
   font-size: var(--fs-bold);
   line-height: var(--lh-bold);
   padding: 0 16px 0 16px;
+  margin-top: 0;
 }
 
 p {
