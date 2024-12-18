@@ -42,6 +42,10 @@ body {
   border-radius: 20px;
 }
 
+.qrcode {
+  overflow: hidden;
+}
+
 img {
   width: 288px;
   margin: 16px;
@@ -61,7 +65,7 @@ h1 {
   font-weight: 700;
   font-size: var(--fs-bold);
   line-height: var(--lh-bold);
-  padding-bottom: 16px;
+  padding: 0 16px 0 16px;
 }
 
 p {
@@ -69,4 +73,6 @@ p {
   font-size: var(--fs-regular);
   line-height: var(--lh-regular);
   letter-spacing: var(--ls-regular);
+  font-weight: 400;
+  padding: 16px;
 }
