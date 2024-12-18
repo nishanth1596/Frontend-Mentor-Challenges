@@ -52,11 +52,11 @@ img {
   margin-bottom: 0;
   border-radius: 10px;
   padding-bottom: 0;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .text-box {
-  padding: 24px 16px 40px 16px;
+  margin: 24px 16px 0 16px;
   text-align: center;
 }
 
