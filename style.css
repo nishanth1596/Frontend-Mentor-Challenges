@@ -56,7 +56,7 @@ img {
 }
 
 .text-box {
-  margin: 24px 16px 0 16px;
+  /* margin: 24px 16px 0 16px; */
   text-align: center;
 }
 
@@ -65,8 +65,7 @@ h1 {
   font-weight: 700;
   font-size: var(--fs-bold);
   line-height: var(--lh-bold);
-  /* padding: 0 16px 0 16px; */
-  /* margin-top: 0; */
+  padding: 24px 16px 0 16px;
 }
 
 p {
