@@ -127,7 +127,7 @@ body {
   width: 100%;
   background-color: var(--white);
   border-radius: 2rem;
-  box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.477);
+  box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.0477);
 }
 
 .outer-box-img {
