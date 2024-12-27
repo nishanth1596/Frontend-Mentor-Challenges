@@ -1,21 +1,128 @@
-/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-<!-- <style>
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-</style> --> */
-
 /* Always bottom margin is present */
 /* Font famile needs to be taken care */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* CODE STARTS from here */
+
+:root {
+  --bg-yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #fff;
+
+  /* Typography */
+
+  /*  Weights: 500, 800 */
+
+  /* Text Preset 1 */
+  --fs-1: 2.4rem;
+  --lh-1: 1.5;
+  --ls-1: 0;
+  --fw-1: 800;
+
+  /* Text Preset 2 */
+  --fs-2: 1.6rem;
+  --lh-2: 1.5;
+  --ls-2: 0;
+  --fw-2: 500;
+
+  /* Text Preset 3 Medium */
+  --fs-3-M: 1.4rem;
+  --lh-3-M: 1.5;
+  --ls-3-M: 0;
+  --fw-3-M: 500;
+
+  /* Text Preset 3 BOLD */
+  --fs-3-B: 1.4rem;
+  --lh-3-B: 1.5;
+  --ls-3-B: 0;
+  --fw-3-B: 800;
+}
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Figtree";
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: #f4d04e;
+  background-color: var(--bg-yellow);
 }
 
 .main-box {
@@ -23,157 +130,115 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100%;
 }
 
 .card {
-  height: 522px;
-  width: 384px;
-  border-radius: 20px;
-  border: 1px solid #111111;
+  max-width: 38.4rem;
+  border-radius: 2rem;
+  border: inset 1px solid #111111;
   background-color: #ffffff;
-  box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
-}
-
-.main-image {
-  height: 200px;
-  margin: 24px 24px 0px 24px;
+  box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 1);
 }
 
 .img-main {
-  width: fit-content;
-  border-radius: 10px;
+  border-radius: 1rem;
+  margin: 2.4rem 2.4rem 0 2.4rem;
 }
 
 .text-box {
-  margin: 24px 24px 0px 24px;
+  margin: 2.4rem 2.4rem 0 2.4rem;
 }
 
 .learning {
-  width: 82px;
-  height: 29px;
-  background-color: #f4d04e;
-  padding: 4px 12px;
-  border: 0px;
-  border-radius: 4px;
-  color: #111111;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  /* come again later here */
+  margin: 0 20.6rem 0 0;
+  background-color: var(--bg-yellow);
+  color: var(--gray-950);
+  font-weight: var(--fw-3-B);
+  font-size: var(--fs-3-B);
+  line-height: var(--lh-3-B);
+  letter-spacing: var(--ls-3-B);
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.2rem;
 }
-
-/* 
-Text Preset 3 (Bold)
-Figtree Extra Bold
-14px
-150% Line Height
-0px Letter Spacing
-
-*/
 
 .para {
-  margin-top: 12px;
+  margin-top: 1.2rem;
+  color: var(--gray-950);
+  font-weight: var(--fw-3-M);
+  font-size: var(--fs-3-M);
+  line-height: var(--lh-3-M);
+  letter-spacing: var(--ls-3-M);
 }
 
-h1 {
-  margin-top: 12px;
-  letter-spacing: 0px;
-  line-height: 1.5;
-  font-size: 24px;
-  font: weight 800;
+h2 {
+  margin-top: 1.2rem;
+  color: var(--gray-950);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-1);
+  line-height: var(--lh-1);
+  letter-spacing: var(--ls-1);
 }
 
-h1:hover,
-h1:active,
-h1:focus,
-h1.error {
+h2:hover,
+h2:active,
+h2:focus,
+h2.error {
   cursor: pointer;
-  color: #f4d04e;
+  color: var(--bg-yellow);
 }
 
 .content-para {
-  margin-top: 12px;
-  color: #6b6b6b;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: left;
+  padding-top: 1.2rem;
+  color: var(--gray-500);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-2);
+  letter-spacing: var(--ls-2);
+  line-height: var(--lh-2);
 }
 
 .avatar {
-  margin: 24px 231px 24px 24px;
+  padding: 2.4rem 0rem 2.4rem 2.4rem;
   display: flex;
-  height: 32px;
-  width: 139px;
   align-items: center;
-  justify-content: space-between;
+  gap: 1.2rem;
 }
 
 .avatar img {
   border-radius: 50%;
-  width: 32px;
+  width: 3.2rem;
 }
 
 .avatar p {
-  color: #111111;
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-align: center;
+  color: var(--gray-950);
+  font-size: var(--fs-3-B);
+  font-weight: var(--fw-3-B);
+  line-height: var(--lh-3-B);
+  letter-spacing: var(--ls-3-B);
 }
 
-/* Typography
-Text Preset 3 (Bold)
-Figtree Extra Bold
-14px
-150% Line Height
-0px Letter Spacing
+@media (max-width: 37.5rem) {
+  .card {
+    max-width: 32.7rem;
+  }
 
-/* 
-colors
+  .img-main {
+    max-width: 27.9rem;
+  }
 
-yellow - #F4D04E
-gray-950 - #111111
-gray-500 - #6B6B6B
-white - #fff
+  .learning {
+    font-size: 1.2rem;
+  }
 
+  .para {
+    font-size: 1.2rem;
+  }
 
-Typography
+  h2 {
+    font-size: 2rem;
+  }
 
-Text Preset 1
-Figtree Extra Bold
-24px
-150% Line Height
-0px Letter Spacing
-
-
-Text Preset 2
-Figtree Medium
-16px
-150% Line Height
-0px Letter Spacing
-
-Text Preset 3
-Figtree Medium
-14px
-150% Line Height
-0px Letter Spacing
-
-
-Text Preset 3 (Bold)
-Figtree Extra Bold
-14px
-150% Line Height
-0px Letter Spacing
-
-
-
-Spacing
-
-300 -24px
-150 - 12px
-100 - 8px
-50  - 4px
-*/
+  .content-para {
+    font-size: 1.4rem;
+  }
+}
