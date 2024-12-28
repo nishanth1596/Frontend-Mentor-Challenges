@@ -136,7 +136,7 @@ body {
 .card {
   max-width: 38.4rem;
   border-radius: 2rem;
-  border: 0.1rem solid #111111;
+  border: 0.08rem solid #111111;
   background-color: #ffffff;
   box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 1);
 }
